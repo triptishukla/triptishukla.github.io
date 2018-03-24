@@ -212,11 +212,11 @@ body{
 /*footer*/
 footer .fa{
     color:yellow;
-    font-size:2em;
+    font-size:1.5;
 }
 footer h3{
     color:aqua;
-    font-size:3em;
+    font-size:1.5em;
     background-color: "black!important";
 }
 
