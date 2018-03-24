@@ -249,7 +249,7 @@ button::-moz-focus-inner {
 img.mfp-img {
   width: auto;
   max-width: 100%;
-  height: 600px;
+  height: 400px;
   display: block;
   line-height: 0;
   box-sizing: border-box;
