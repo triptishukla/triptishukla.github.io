@@ -1,0 +1,329 @@
+/*General Rules*/
+body,html{
+    height:100%;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 100%;
+    background: url("../images/theme15.jpeg");
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+/*header*/
+#header{
+    height: 100%;
+    
+    
+}
+#wrapper{
+    height: 100%;
+   background: url("../images/pastry.jpeg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-bottom: .15em solid red;
+        
+    
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    display:table;
+
+    
+}
+#content-box{
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+#header img{
+    width: 23em;
+    display:inline;
+}
+
+#header p{
+    font-size: 2em;
+    font-weight:bolder;
+    margin:1em 0;
+    
+}
+
+#header p:hover{
+    color: blue;
+}
+#header #content a{
+    background-color:white;
+    font-size:3em;
+    padding: 0.15em 0.5em;
+    color:blue;
+    text-decoration:none;
+    opacity:0.6;
+    border:0.15em solid black;
+}
+#header #content a:hover{
+    background-color:red;
+    opacity:0.8;
+}
+/*navbar*/
+
+.navbar {
+    background-color:transparent;
+    border:0;
+    padding:1em;
+}
+.navbar button{
+    background-color:black;
+}
+.navbar button :hover{
+    background-color:red!important;
+    
+    
+}
+.navbar-toggler{
+    padding:0px;
+}
+.navbar-brand{
+    color:black!important;
+    font-size: 3em;
+}
+.navbar a:not(.navbar-brand){
+    color:red!important;
+    font-size: 1.5em;
+    font-weight:bolder;
+}
+.navbar a:hover{
+    color:black!important;
+}
+
+/*photos*/
+
+
+#photos{
+    padding:3em 2em;
+}
+.col-md-4{
+    position:relative;
+    
+}
+#photos img{
+    width:100%;
+    height:20em;
+    margin:2em 0;
+    border-radius:2em;
+    transition:transform 3s ease-in-out;
+    
+}
+
+#photos h2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-top: 0.15em solid red;
+    border-bottom:0.15em solid red;
+    color:black;
+    display:none;
+    font-size:3em;
+
+}
+
+#img1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+#img2:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+#img3:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+#img4:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+#img5:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+#img6:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+#photos .col-md-4:hover h2{
+    display:block;
+}
+
+
+/*form*/
+#forms{
+    padding:3em 2em;
+}
+
+
+#forms h1{
+    color:red;
+    
+}
+
+.form{
+    background-color:black;
+    opacity:0.8;
+    padding:2em 1em;
+    height:60em;
+    
+}
+.form h3{
+    color:red;
+}
+.form p{
+    color:white;
+    font-size:2em;
+}
+
+
+.form button{
+    background-color:red;
+    font-size:3em;
+}
+.iframe{
+    padding:2em 1em;
+    height:60em;
+    background-color:white;
+}
+.iframe iframe{
+    height:50em;
+    
+}
+
+
+/*footer*/
+footer .fa{
+    color:yellow;
+    font-size:2em;
+}
+footer h3{
+    color:aqua;
+    font-size:3em;
+    background-color: "black!important";
+}
+
+.list-inline{
+    background-color: ="black!important";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
